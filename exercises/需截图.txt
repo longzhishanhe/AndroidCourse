@@ -1,0 +1,2 @@
+RecyclerView组件实现聊天程序，登录对话框
+两个Activity的数据传递
