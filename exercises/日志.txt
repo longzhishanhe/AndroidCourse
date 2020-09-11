@@ -1,1 +1,2 @@
-学习到了CheckBox，但是发现使用Toast.makeText方法程序在虚拟机无法运行
+瀛︿範鍒颁簡CheckBox锛屼絾鏄彂鐜颁娇鐢═oast.makeText鏂规硶绋嬪簭鍦ㄨ櫄鎷熸満鏃犳硶杩愯
+浠婃棩鏃犱簨
