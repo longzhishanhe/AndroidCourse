@@ -1,2 +1,3 @@
 学习到了CheckBox，但是发现使用Toast.makeText方法程序在虚拟机无法运行
 今日无事
+脑壳痛
