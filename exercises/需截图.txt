@@ -1,2 +1,2 @@
-RecyclerView×é¼þÊµÏÖÁÄÌì³ÌÐò£¬µÇÂ¼¶Ô»°¿ò
-Á½¸öActivityµÄÊý¾Ý´«µÝ
+RecyclerViewç»„ä»¶å®žçŽ°èŠå¤©ç¨‹åºï¼Œç™»å½•å¯¹è¯æ¡†
+ä¸¤ä¸ªActivityçš„æ•°æ®ä¼ é€’
