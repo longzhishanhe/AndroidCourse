@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">exercises1</string>
+    <string name="hint">提示对话框</string>
+    <string name="register">登录对话框</string>
+</resources>
