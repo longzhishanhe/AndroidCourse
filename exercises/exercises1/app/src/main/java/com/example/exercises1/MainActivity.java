@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                CustomDilaog dilaog = new CustomDilaog(MainActivity.this);
+                dilaog.show();
             }
         });
     }
