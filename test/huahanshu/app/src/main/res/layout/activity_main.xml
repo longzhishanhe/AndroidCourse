@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtFunction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="sin(x)"
+        app:layout_constraintBottom_toTopOf="@+id/plotview"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlot"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绘制"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/txtFunction"
+        />
+
+    <Button
+        android:id="@+id/small"
+        android:text="缩小"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="76dp"
+        android:text="放大"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="64dp"
+        android:text="清除"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="↑"
+        app:layout_constraintBottom_toTopOf="@+id/clean"
+        app:layout_constraintEnd_toEndOf="@+id/clean"
+        app:layout_constraintStart_toStartOf="@+id/clean" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="↓"
+        app:layout_constraintEnd_toEndOf="@+id/clean"
+        app:layout_constraintStart_toStartOf="@+id/clean"
+        app:layout_constraintTop_toBottomOf="@+id/clean" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="←"
+        app:layout_constraintBottom_toBottomOf="@+id/clean"
+        app:layout_constraintEnd_toStartOf="@+id/clean"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="→"
+        app:layout_constraintBottom_toBottomOf="@+id/clean"
+        app:layout_constraintStart_toEndOf="@+id/clean" />
+
+    <com.example.huahanshu.CustomView
+        android:id="@+id/plotview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFunction"
+        tools:ignore="MissingClass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
